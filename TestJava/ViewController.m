@@ -34,7 +34,7 @@
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html",@"text/plain",@"text/json",@"application/json", nil];
     manager.responseSerializer = [AFJSONResponseSerializer serializer];
 //    manager.responseSerializer= [AFHTTPResponseSerializer serializer];
-    [manager GET:@"http://localhost:8080/mfblog/mfblog/index?num=1&size=10" parameters:NULL progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+    [manager POST:@"http://localhost:8080/mfblog/mfblog/create" parameters:@{@"name":@"小花",@"address":@"中国",@"sex":@"男"} progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
 //        NSDictionary * dic = [NSJSONSerialization JSONObjectWithData:responseObject options:NSJSONReadingMutableContainers error:nil];
         NSLog(@"获取的数据===>%@",responseObject);
         

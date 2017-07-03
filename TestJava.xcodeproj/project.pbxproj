@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		93796D9D9DD174D890DE00EF /* Pods_TestJava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9245A43E805CB51C5970C2F6 /* Pods_TestJava.framework */; };
+		9512776C1F09E4120066AC96 /* 启动3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9512776B1F09E4120066AC96 /* 启动3.png */; };
+		9512776F1F09EF200066AC96 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9512776E1F09EF200066AC96 /* PushViewController.m */; };
+		951277711F09EF640066AC96 /* testAjax.html in Resources */ = {isa = PBXBuildFile; fileRef = 951277701F09EF640066AC96 /* testAjax.html */; };
+		951277731F09EF7A0066AC96 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951277721F09EF7A0066AC96 /* JavaScriptCore.framework */; };
 		95B5DCAD1EE95413007DB878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B5DCAC1EE95413007DB878 /* main.m */; };
 		95B5DCB01EE95413007DB878 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B5DCAF1EE95413007DB878 /* AppDelegate.m */; };
 		95B5DCB31EE95413007DB878 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B5DCB21EE95413007DB878 /* ViewController.m */; };
@@ -38,6 +42,11 @@
 /* Begin PBXFileReference section */
 		1A8C91F92FC4CABA4C0BEB77 /* Pods-TestJava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestJava.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestJava/Pods-TestJava.release.xcconfig"; sourceTree = "<group>"; };
 		9245A43E805CB51C5970C2F6 /* Pods_TestJava.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestJava.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9512776B1F09E4120066AC96 /* 启动3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "启动3.png"; sourceTree = "<group>"; };
+		9512776D1F09EF200066AC96 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		9512776E1F09EF200066AC96 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		951277701F09EF640066AC96 /* testAjax.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = testAjax.html; sourceTree = "<group>"; };
+		951277721F09EF7A0066AC96 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		95B5DCA81EE95413007DB878 /* TestJava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJava.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B5DCAC1EE95413007DB878 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		95B5DCAE1EE95413007DB878 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951277731F09EF7A0066AC96 /* JavaScriptCore.framework in Frameworks */,
 				93796D9D9DD174D890DE00EF /* Pods_TestJava.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,6 +127,8 @@
 		95B5DCAA1EE95413007DB878 /* TestJava */ = {
 			isa = PBXGroup;
 			children = (
+				951277701F09EF640066AC96 /* testAjax.html */,
+				9512776B1F09E4120066AC96 /* 启动3.png */,
 				95B5DCAE1EE95413007DB878 /* AppDelegate.h */,
 				95B5DCAF1EE95413007DB878 /* AppDelegate.m */,
 				95B5DCB11EE95413007DB878 /* ViewController.h */,
@@ -126,6 +138,8 @@
 				95B5DCB91EE95413007DB878 /* LaunchScreen.storyboard */,
 				95B5DCBC1EE95413007DB878 /* Info.plist */,
 				95B5DCAB1EE95413007DB878 /* Supporting Files */,
+				9512776D1F09EF200066AC96 /* PushViewController.h */,
+				9512776E1F09EF200066AC96 /* PushViewController.m */,
 			);
 			path = TestJava;
 			sourceTree = "<group>";
@@ -159,6 +173,7 @@
 		E52598542D7C99F00DC5C521 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				951277721F09EF7A0066AC96 /* JavaScriptCore.framework */,
 				9245A43E805CB51C5970C2F6 /* Pods_TestJava.framework */,
 			);
 			name = Frameworks;
@@ -276,6 +291,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				951277711F09EF640066AC96 /* testAjax.html in Resources */,
+				9512776C1F09E4120066AC96 /* 启动3.png in Resources */,
 				95B5DCBB1EE95413007DB878 /* LaunchScreen.storyboard in Resources */,
 				95B5DCB81EE95413007DB878 /* Assets.xcassets in Resources */,
 				95B5DCB61EE95413007DB878 /* Main.storyboard in Resources */,
@@ -353,6 +370,7 @@
 			files = (
 				95B5DCB31EE95413007DB878 /* ViewController.m in Sources */,
 				95B5DCB01EE95413007DB878 /* AppDelegate.m in Sources */,
+				9512776F1F09EF200066AC96 /* PushViewController.m in Sources */,
 				95B5DCAD1EE95413007DB878 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,6 +613,7 @@
 				95B5DCD71EE95413007DB878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95B5DCD81EE95413007DB878 /* Build configuration list for PBXNativeTarget "TestJavaTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +622,7 @@
 				95B5DCDA1EE95413007DB878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95B5DCDB1EE95413007DB878 /* Build configuration list for PBXNativeTarget "TestJavaUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +631,7 @@
 				95B5DCDD1EE95413007DB878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

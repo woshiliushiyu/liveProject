@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TempController.h"
+#import "DKNetworking.h"
+#import "LocationController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [DKNetworking setupBaseURL:@"https://ymzx.asia-cloud.com/api/"];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[LocationController alloc] init]];
     return YES;
 }
 

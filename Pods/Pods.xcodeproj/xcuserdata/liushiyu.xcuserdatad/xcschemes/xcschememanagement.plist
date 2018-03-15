@@ -9,7 +9,32 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DKNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JSONModel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-TestJava.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReactiveObjC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYCache.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>55883A5EDEAE6A8EEE13439C7748858A</key>
+		<key>2718A4397E3112A62A9BD661832A9452</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45A46B69C3166D11FAC9944410CCE784</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6490EA8F45D22B65E3F2CDB9D0004F66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>718ABA7B8148BAC71D69CB97E137450B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A75DF32BB42359AE7567C54B9A0006AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC3688684BF42A20A8998F31DDA51A49</key>
 		<dict>
 			<key>primary</key>
 			<true/>

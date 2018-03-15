@@ -15,7 +15,6 @@
 @property (strong, nonatomic) IBOutlet UITextField *contextLabel;
 @property (strong, nonatomic) IBOutlet UITextField *addressLabel;
 @property (strong, nonatomic) IBOutlet UITextField *durationlabel;
-@property (strong, nonatomic) IBOutlet UIImageView *iconView;
 
 @end
 
@@ -64,9 +63,19 @@
 
 - (IBAction)sendBtn:(id)sender {
     
-    [self presentViewController:[[PushViewController alloc] init] animated:YES completion:^{
-        
+//    [self presentViewController:[[PushViewController alloc] init] animated:YES completion:^{
+//        
+//    }];
+    AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
+    
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json",nil];
+    
+    [manager GET:@"http://localhost:8080/mfblog/mfblog/index?num=1&size=10" parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSLog(@"%@",responseObject);
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        NSLog(@"%@",error);
     }];
+    
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {

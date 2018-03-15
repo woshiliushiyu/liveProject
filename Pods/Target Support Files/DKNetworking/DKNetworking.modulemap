@@ -1,0 +1,6 @@
+framework module DKNetworking {
+  umbrella header "DKNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

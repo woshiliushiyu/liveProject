@@ -29,6 +29,8 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>使用位置服务,我们将为您提供更准确的信息！</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

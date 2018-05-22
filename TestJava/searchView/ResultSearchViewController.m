@@ -1,0 +1,40 @@
+
+//
+//  ResultSearchViewController.m
+//  TestJava
+//
+//  Created by 流诗语 on 2018/4/18.
+//  Copyright © 2018年 刘世玉. All rights reserved.
+//
+
+#import "ResultSearchViewController.h"
+#import "PYSearch.h"
+@interface ResultSearchViewController ()
+
+@end
+
+@implementation ResultSearchViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    self.title = @"SearchResultViewController";
+    self.view.backgroundColor = PYSEARCH_RANDOM_COLOR;
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

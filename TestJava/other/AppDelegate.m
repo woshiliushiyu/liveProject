@@ -8,8 +8,12 @@
 
 #import "AppDelegate.h"
 #import "TempController.h"
-#import "DKNetworking.h"
+#import "PlayerViewController.h"
 #import "LocationController.h"
+#import "NewViewController.h"
+
+#import "RootSearchViewController.h"
+#import "SearchShowViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,8 +23,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [DKNetworking setupBaseURL:@"https://ymzx.asia-cloud.com/api/"];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[LocationController alloc] init]];
+//    if (!self.window) {
+        UIWindow *keyWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        keyWindow.rootViewController = [[RootSearchViewController alloc] initWithRootViewController:[[PlayerViewController alloc] init]];
+        [keyWindow makeKeyAndVisible];
+        self.window = keyWindow;
+//    }
+//    [DKNetworking setupBaseURL:@"https://ymzx.asia-cloud.com/api/"];
+//    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[NewViewController alloc] init]];
     return YES;
 }
 

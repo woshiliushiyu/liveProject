@@ -20,7 +20,29 @@ PODS:
     - YYCache
   - JSONModel (1.7.0)
   - MJExtension (3.0.13)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
   - ReactiveObjC (2.1.2)
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
   - YYCache (1.0.4)
 
 DEPENDENCIES:
@@ -28,16 +50,34 @@ DEPENDENCIES:
   - DKNetworking
   - JSONModel
   - ReactiveObjC
+  - Texture
   - YYCache
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - DKNetworking
+    - JSONModel
+    - MJExtension
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - ReactiveObjC
+    - Texture
+    - YYCache
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   DKNetworking: e00fe0039f23b5674d1212ba376d8d32078ed4fc
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
   ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: a6611d553c3a960ac35b45d165e61b80ac10fa02
+PODFILE CHECKSUM: 59d36308dc176930d0e0ec5ed832ed57b649d168
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.0
